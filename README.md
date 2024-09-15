@@ -28,7 +28,7 @@ This dashboard helps you:
 
 The dataset used in this dashboard includes the following columns:
 - **Date**: Date of transaction.
-- **Category**: Category of the transaction (e.g., Rent, Groceries, Utilities).
+- **Components**: Components of the transaction (e.g., Rent, Groceries, Utilities).
 - **Amount**: Amount of the transaction.
 - **Type**: Transaction type (Income or Expense).
 

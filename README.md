@@ -39,7 +39,7 @@ The dataset used in this dashboard includes the following columns:
 
 ## 🔍 Dashboard Preview
 
-![Dashboard Preview](https://github.com/prashantsingh8962/Personal_Finance_Analysis/tree/main/Dashboard)
+![Dashboard Preview](https://github.com/prashantsingh8962/Personal_Finance_Analysis_powerBI/blob/main/Resources/dashboard.png)
 
 ## 📢 Feedback
 

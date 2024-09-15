@@ -43,13 +43,28 @@
 
 8. we created a detailed statement using the matrix: (type, components)column Vs. (Year, Date)rows Vs. (Values) values.
 
-    <img src="https://github.com/prashantsingh8962/Personal_Finance_Analysis/blob/main/Resources/Power_query.png" class="center">
+    <img src="https://github.com/prashantsingh8962/Personal_Finance_Analysis/blob/main/Resources/detailed%20statement.png" class="center">
 
    
 9. we also created four tooltips:
+    
+- Tooltip 1: we created a line chart for expenses clustered bar chart in power BI- date on x-axis, total expense on the y-axis, and components on legends.
+   <img src="https://github.com/prashantsingh8962/Personal_Finance_Analysis/blob/main/Resources/Expenses%20chart.png" class="center">
 
-   <img src="https://github.com/prashantsingh8962/Personal_Finance_Analysis/blob/main/Resources/Power_query.png" class="center">
-<img src="https://github.com/prashantsingh8962/Personal_Finance_Analysis/blob/main/Resources/Power_query.png" class="center">
-<img src="https://github.com/prashantsingh8962/Personal_Finance_Analysis/blob/main/Resources/Power_query.png" class="center">
-<img src="https://github.com/prashantsingh8962/Personal_Finance_Analysis/blob/main/Resources/Power_query.png" class="center">
+- Tooltip 2: we created a line chart for savings clustered bar chart in power BI- date on x-axis, total savings on the y-axis, and components on legends.
+<img src="https://github.com/prashantsingh8962/Personal_Finance_Analysis/blob/main/Resources/savings%20chart.png" class="center">
+
+- Tooltip 3: my net worth trend- date on x-axis, cumulative net worth on y axis
+
+         Cumulative Net worth = 
+       CALCULATE(
+      [Total savings],
+      FILTER(
+        all(FinData[Date]),
+        FinData[Date] <= max(FinData[Date])))
+  
+<img src="https://github.com/prashantsingh8962/Personal_Finance_Analysis/blob/main/Resources/My%20net%20worth%20trend.png" class="center">
+
+- Tooltip 4: We created a line and column clustered chart- date on x axis, total savings, total expense on y axis, savings % on line axis.
+<img src="https://github.com/prashantsingh8962/Personal_Finance_Analysis/blob/main/Resources/savings%20%25%20with%20total%20expense%2C%20total%20income.png" class="center">
 

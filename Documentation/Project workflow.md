@@ -49,10 +49,12 @@
 9. we also created four tooltips:
     
 - Tooltip 1: we created a line chart for expenses clustered bar chart in power BI- date on x-axis, total expense on the y-axis, and components on legends.
-   <img src="https://github.com/prashantsingh8962/Personal_Finance_Analysis/blob/main/Resources/Expenses%20chart.png" class="center">
+
+  <img src="https://github.com/prashantsingh8962/Personal_Finance_Analysis/blob/main/Resources/Expenses%20chart.png" class="center">
 
 - Tooltip 2: we created a line chart for savings clustered bar chart in power BI- date on x-axis, total savings on the y-axis, and components on legends.
-<img src="https://github.com/prashantsingh8962/Personal_Finance_Analysis/blob/main/Resources/savings%20chart.png" class="center">
+
+   <img src="https://github.com/prashantsingh8962/Personal_Finance_Analysis/blob/main/Resources/savings%20chart.png" class="center">
 
 - Tooltip 3: my net worth trend- date on x-axis, cumulative net worth on y axis
 

@@ -1,4 +1,4 @@
-# Step-by-step Project workflow:
+## Step-by-step Project workflow:
 
 1. We created a mockup to understand our requirements from the dashboard.
    
